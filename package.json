@@ -1,28 +1,50 @@
 {
-    "name": "cursor-js",
-    "version": "1.0.0",
-    "description": "Animated cursor pointer",
-    "main": "dist/index.js",
-    "types": "dist/index.d.ts",
-    "scripts": {
-      "start": "webpack"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/mollahdev/cursor-js"
-    },
-    "keywords": [],
-    "author": "Ashraf Mollah <mollah.dev@gmail.com> (https://www.linkedin.com/in/mollah-dev/)",
-    "license": "ISC",
-    "email": "mollah.dev@gmail.com",
-    "bugs": {
-      "url": "https://github.com/mollahdev/cursor-js/issues"
-    },
-    "homepage": "https://github.com/mollahdev/cursor-js#readme",
-    "devDependencies": {
-      "ts-loader": "^9.3.1",
-      "typescript": "^4.8.2",
-      "webpack": "^5.74.0",
-      "webpack-cli": "^4.10.0"
-    }
+  "name": "@mollahdev/slot-g",
+  "version": "0.0.1",
+  "author": "Ashraf Mollah <mollah.dev@gmail.com> (https://mollah.dev)",
+  "description": "A time slot generator",
+  "keywords": [
+      "time",
+      "slot",
+      "generator",
+      "appointment slot",
+      "booking slot",
+      "package",
+      "ashraf"
+  ],
+  "email": "mollah.dev@gmail.com",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+      ".": {
+          "import": "./dist/index.js",
+          "require": "./dist/index.cjs"
+      }
+  },
+  "files": [
+      "dist"
+  ],
+  "bugs": {
+      "url": "https://github.com/mollahdev/slot-g/issues"
+  },
+  "homepage": "https://github.com/mollahdev/slot-g#readme",
+  "type": "module",
+  "scripts": {
+      "build": "tsc && vite build",
+      "build:watch": "tsc && vite build --watch",
+      "dev": "vite",
+      "format": "npx prettier --write .",
+      "prepare": "husky install"
+  },
+  "devDependencies": {
+      "@rollup/plugin-typescript": "^11.1.1",
+      "@types/node": "^20.2.3",
+      "husky": "^8.0.3",
+      "prettier": "2.8.8",
+      "rollup-plugin-typescript-paths": "^1.4.0",
+      "tslib": "^2.5.2",
+      "typescript": "^5.0.2",
+      "vite": "^4.3.2"
   }
+}
