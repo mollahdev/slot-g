@@ -82,11 +82,3 @@ export default function slotg(config?: Partial<Config>): {[key: number]: string}
 
 	return  (noTime ? Object.keys( slots ) : slots) as {[key: number]: string};
 };
-
-console.log(slotg({
-	gap: 60,
-	start: 600,
-	end: 1140,
-	formatedHours: false,
-	disabled: [ [720, 900] ]
-}))
