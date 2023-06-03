@@ -1,50 +1,50 @@
 {
-  "name": "@mollahdev/slot-g",
-  "version": "0.0.2",
-  "author": "Ashraf Mollah <mollah.dev@gmail.com> (https://mollah.dev)",
-  "description": "A time slot generator",
-  "keywords": [
-      "time",
-      "slot",
-      "generator",
-      "appointment slot",
-      "booking slot",
-      "package",
-      "ashraf"
-  ],
-  "email": "mollah.dev@gmail.com",
-  "main": "./dist/index.cjs",
-  "module": "./dist/index.js",
-  "types": "./dist/index.d.ts",
-  "exports": {
-      ".": {
-          "import": "./dist/index.js",
-          "require": "./dist/index.cjs"
-      }
-  },
-  "files": [
-      "dist"
-  ],
-  "bugs": {
-      "url": "https://github.com/mollahdev/slot-g/issues"
-  },
-  "homepage": "https://github.com/mollahdev/slot-g#readme",
-  "type": "module",
-  "scripts": {
-      "build": "tsc && vite build",
-      "build:watch": "tsc && vite build --watch",
-      "dev": "vite",
-      "format": "npx prettier --write .",
-      "prepare": "husky install"
-  },
-  "devDependencies": {
-      "@rollup/plugin-typescript": "^11.1.1",
-      "@types/node": "^20.2.3",
-      "husky": "^8.0.3",
-      "prettier": "2.8.8",
-      "rollup-plugin-typescript-paths": "^1.4.0",
-      "tslib": "^2.5.2",
-      "typescript": "^5.0.2",
-      "vite": "^4.3.2"
-  }
+    "name": "@mollahdev/slot-g",
+    "version": "0.0.1",
+    "author": "Ashraf Mollah <mollah.dev@gmail.com> (https://mollah.dev)",
+    "description": "A time slot generator",
+    "keywords": [
+        "time",
+        "slot",
+        "generator",
+        "appointment slot",
+        "booking slot",
+        "package",
+        "ashraf"
+    ],
+    "email": "mollah.dev@gmail.com",
+    "main": "./dist/index.cjs",
+    "module": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "exports": {
+        ".": {
+            "import": "./dist/index.js",
+            "require": "./dist/index.cjs"
+        }
+    },
+    "files": [
+        "dist"
+    ],
+    "bugs": {
+        "url": "https://github.com/mollahdev/slot-g/issues"
+    },
+    "homepage": "https://github.com/mollahdev/slot-g#readme",
+    "type": "module",
+    "scripts": {
+        "build": "tsc && vite build",
+        "build:watch": "tsc && vite build --watch",
+        "dev": "vite",
+        "format": "npx prettier --write .",
+        "prepare": "husky install"
+    },
+    "devDependencies": {
+        "@rollup/plugin-typescript": "^11.1.1",
+        "@types/node": "^20.2.3",
+        "husky": "^8.0.3",
+        "prettier": "2.8.8",
+        "rollup-plugin-typescript-paths": "^1.4.0",
+        "tslib": "^2.5.2",
+        "typescript": "^5.0.2",
+        "vite": "^4.3.2"
+    }
 }

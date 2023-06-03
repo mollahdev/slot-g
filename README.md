@@ -3,6 +3,7 @@
 #### Available as an [NPM Package](https://www.npmjs.com/package/@mollahdev/slot-g).
 
 **Install with NPM:**
+
 ```sh
 npm i @mollahdev/slot-g
 ```
