@@ -1,6 +1,6 @@
 {
     "name": "@mollahdev/slot-g",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "author": "Ashraf Mollah <mollah.dev@gmail.com> (https://mollah.dev)",
     "description": "A time slot generator",
     "keywords": [
